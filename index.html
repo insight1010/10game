@@ -2,10 +2,32 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=docs/index.html">
-    <title>Перенаправление на 10Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>10Game - LIP Агент</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <p>Если вы не были перенаправлены автоматически, <a href="docs/index.html">нажмите здесь</a>.</p>
+    <div class="container">
+        <div class="header">
+            <h1>10Game</h1>
+            <p>Локер-Инсайт-Потенциал</p>
+        </div>
+        
+        <div class="user-info" id="userInfo">
+            Загрузка информации...
+        </div>
+        
+        <div class="game-container" id="gameContainer">
+            <div class="game-intro">
+                <h2>Добро пожаловать в 10Game!</h2>
+                <p>Узнайте свои локеры, инсайты и раскройте потенциал</p>
+            </div>
+            
+            <button class="button" id="startButton">Начать игру</button>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
 </body>
 </html> 
