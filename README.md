@@ -27,4 +27,4 @@
 
 ## Токен бота
 
-Токен бота для тестирования: `7835292741:AAE27dEbWP0GxSvIGtRa6Qo0yBaACZFW-_M`
+Токен бота для тестирования: `7709753271:AAG0Z0HWfSKxCfzi2DbZczJ6mvnwubYTSEQ`
